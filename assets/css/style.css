@@ -153,10 +153,11 @@ h3 {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -168,9 +169,6 @@ h3 {
 }
 
 /*What we Do*/
-.intro {
-    text-align: center;
-}
 
 .intro p {
     line-height: 1.7;
@@ -178,12 +176,12 @@ h3 {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 
 
 /*What you do steps*/
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
@@ -214,7 +212,7 @@ h3 {
 
 /*Trainers*/
 .trainers {
-    text-align: center;
+    
 }
 
 .trainer {
@@ -263,7 +261,6 @@ h3 {
 
 /*contact us*/
 .contact {
-    text-align: center;
     background: #024e76;
 }
 
@@ -301,3 +298,6 @@ h3 {
     color: #fce138;
 }
 
+.flex-row {
+    display: flex;
+}
